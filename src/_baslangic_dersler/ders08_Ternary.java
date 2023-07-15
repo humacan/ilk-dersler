@@ -1,6 +1,6 @@
 //..........TERNARY OPERATOR (?)-----IF'E ALTERNATIF OLARAK KULLANILIR ...........
 
-package baslangic_dersler;
+package _baslangic_dersler;
 import java.util.Scanner;
 public class ders08_Ternary {
     public static void main(String[] args) {

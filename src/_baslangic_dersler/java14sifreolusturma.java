@@ -1,10 +1,9 @@
-package baslangic_dersler;     // COKLU SECENEKLERI KARSILAYAN SIFRE OLUSTURMA SURECI
-
+package _baslangic_dersler;     // COKLU SECENEKLERI KARSILAYAN SIFRE OLUSTURMA SURECI
 public class java14sifreolusturma {
     public static void main(String[] args) {
 
         int flag=0;           // secenekleri karsilamasini kontrol icin olusturuldu
-        String sifre="a23abdcfe5";
+        String sifre="a23abdcfe5";  //
 
         if (sifre.charAt(0)>='a' && sifre.charAt(0)<='z') {                                     // sifre ilk harfi 'a' ve 'z' araligindaysa
             flag++;
@@ -24,9 +23,11 @@ public class java14sifreolusturma {
             flag++;
         }else{
             System.out.println("sifre uzunlugu 10 karakter olmali");
-        }if (flag==4){                                                                        // flag integeri 4'e ulastiysa(her if'in altinda sart saglanirsa flag'i bir arttir komutu iyi okunmali)
-            System.out.println("Tebrikler sifreniz basari ile olusturuldu");
+
+        }  if (flag==4){                                                                       // flag integeri 4'e ulastiysa(her if'in altinda sart saglanirsa flag'i bir arttir komutu iyi okunmali)
+
+         System.out.println("Tebrikler sifreniz basari ile olusturuldu");
 
         }
-    }
+}
 }

@@ -1,4 +1,4 @@
-package baslangic_dersler;
+package _baslangic_dersler;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class ders12_Email_if {
 
         if (!email.contains("@")) {                             // email '@' isareti icermiyorsa( '-!-' ye dikkat)
             System.out.println("Gecersiz e-posta girisi");
-        }  else if (!email.contains("@gmail")){                  // email '@gmail' ifadesi icermiyorsa
+        }else if (!email.contains("@gmail")){                  // email '@gmail' ifadesi icermiyorsa
             System.out.println("Lutfen @gmail olarak giriniz");
         }else if (!email.endsWith(".com")) {                     // email '.com' ile bitmiyorsa
             System.out.println("eksik veri girisi");

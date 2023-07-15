@@ -1,5 +1,5 @@
 //..........SWITCH PARAMETRESI --- ELSE IF ALTERNATIFI........
-package baslangic_dersler;
+package _baslangic_dersler;
 import java.util.Scanner;
 public class ders09_SwitchParametre {
     public static void main(String[] args) {
@@ -34,6 +34,7 @@ public class ders09_SwitchParametre {
                 break;
             default:
                 System.out.println("Gecersiz harf girdiniz");
+
         }
     }
 }

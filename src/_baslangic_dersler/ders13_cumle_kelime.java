@@ -1,5 +1,5 @@
-package baslangic_dersler;
-public class ders13 {
+package _baslangic_dersler;
+public class ders13_cumle_kelime {
     public static void main(String[] args) {
         String cumle = "java iyi ki varsin java";
         String kelime = "java";

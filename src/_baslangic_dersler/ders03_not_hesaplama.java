@@ -1,13 +1,13 @@
-package baslangic_dersler;
+package _baslangic_dersler;
 import java.util.Scanner;
-public class ders03 {
+public class ders03_not_hesaplama {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
         int a = 12;
         int b = 9;
         if (a>b){
-            System.out.println("a b^den buyuktur");
+            System.out.println("a b'den buyuktur");
         }
         if (a%2==0){
             System.out.println("a cift bir sayidir");
@@ -17,7 +17,7 @@ public class ders03 {
         }
         boolean sonuc = b*3 > a;
         if (sonuc){
-            System.out.println("b a^dan buyuktur");
+            System.out.println("b a'dan buyuktur");
         }
         System.out.println("lutfen bir sayi giriniz");
 

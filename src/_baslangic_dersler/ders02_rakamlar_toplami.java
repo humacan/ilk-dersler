@@ -1,6 +1,6 @@
-package baslangic_dersler;
+package _baslangic_dersler;
 import java.util.Scanner;
-public class ders02 {
+public class ders02_rakamlar_toplami {
     public static void main(String[] args) {
 
     Scanner scn = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class ders02 {
     //
     sayi = sayi / 10;            // 15.6 ==> 15
 
-    rakam = sayi % 10;           // 15 in modulusu ==> 5
+    rakam = sayi % 10;           // 15 in modulusu ==> kalan 5
 
     rakamlarToplami = rakamlarToplami + rakam;  // rakamlar toplamini, rakamlar
                                      // toplami ve rakam olarak guncelle ==> 5+6=11

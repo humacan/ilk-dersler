@@ -1,4 +1,4 @@
-package baslangic_dersler;
+package _baslangic_dersler;
 import java.util.Scanner;
 public class baslangic {
     public static void main(String[] args) {
@@ -14,6 +14,15 @@ public class baslangic {
         int yas = scan.nextInt();
 
         System.out.println("Girilen Bilgiler: "+ isim+"  "+soyisim+"  "+yas);
+
+
+
+
+
+
+
+
+
 
 
     }

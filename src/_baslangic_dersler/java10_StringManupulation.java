@@ -8,7 +8,7 @@
                                 //  replace, replaceFirst, replaceAll - yer degistirme
                                 //  repeat - bir stringi tekrar sayisi kadar tekrar ettirir
                                 //  strim - bir stringin basinda ve sonunda bulunan boslugu siler
-package baslangic_dersler;
+package _baslangic_dersler;
 public class java10_StringManupulation {
     public static void main(String[] args) {
         String str="Java Candir";

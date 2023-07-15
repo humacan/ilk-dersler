@@ -1,5 +1,5 @@
 //..........CINSIYET BAZ ALINARAK YAPILAN EMEKLILIK HESAPLAMASI.....
-package baslangic_dersler;
+package _baslangic_dersler;
 import java.util.Scanner;
 public class ders06_CinsiyetEmeklilik {
     public static void main(String[] args) {

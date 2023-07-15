@@ -1,4 +1,4 @@
-package baslangic_dersler;                         //donusturme
+package _baslangic_dersler;                         //donusturme
 import java.util.Scanner;
 
 public class ders04_donusturme {

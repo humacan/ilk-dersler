@@ -1,4 +1,4 @@
-package baslangic_dersler;
+package _baslangic_dersler;
 
 import java.util.Scanner;
 

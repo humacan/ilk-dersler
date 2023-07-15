@@ -1,5 +1,5 @@
 //..........CHARAT...LENGTH...SUBSTRING...KULLANIMI......INDEX OF
-package baslangic_dersler;
+package _baslangic_dersler;
 public class java11_Substring_Indexof_Length {
     public static void main(String[] args) {
         String str = "Java gun gectikce guzellesiyor";

@@ -1,5 +1,5 @@
 //..........YAS BAZ ALINARAK YAPILAN EMEKLILIK HESAPLAMASI......NESTED STATEMENTS
-package baslangic_dersler;
+package _baslangic_dersler;
 import java.util.Scanner;
 public class ders07_YasEmeklilik {
     public static void main(String[] args) {
