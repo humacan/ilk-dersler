@@ -1,8 +1,7 @@
 package method;
-
 import java.util.Scanner;
 
-public class ders_method_05 {
+public class ders_method_05_Polindrom {
     public static void main(String[] args) {
         // metnin palindrome olup olmadigini kontrol ediniz
         Scanner tara=new Scanner(System.in);

@@ -1,7 +1,5 @@
 package scope_arrays;
-
 import java.util.Arrays;
-
 public class ders04_array_element_yaz {
     public static void main(String[] args) {
 

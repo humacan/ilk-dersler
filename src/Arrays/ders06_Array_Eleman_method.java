@@ -6,7 +6,7 @@ public class ders06_Array_Eleman_method {
 
       int arr[]={2,4,7,8};
 
-      arr=arrayelementEkle(arr,5);  //   [2,4,6,7,8,5]
+       arr=arrayelementEkle(arr,5);  //   [2,4,6,7,8,5]
         arr=arrayelementEkle(arr,3);  // [2,4,6,7,8,5,3]
         arr=arrayelementEkle(arr,34); // [2,4,6,7,8,5,3,34]
         System.out.println(Arrays.toString(arr));

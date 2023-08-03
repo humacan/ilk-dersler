@@ -6,6 +6,7 @@ public class ders05_ArrayaElemanEkleme {
     public static void main(String[] args) {
 
     int[] arr={4,5,6};
+        System.out.println(Arrays.toString(arr));
     int eklenecekElement=10;
 
     // arr=new int[5];  //-> [0,0,0,0,0]

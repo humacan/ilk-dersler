@@ -1,8 +1,5 @@
 package scope_arrays;
-
 public class ders01_Adoktor {
-
-
 
     String isim;
     String soyisim;

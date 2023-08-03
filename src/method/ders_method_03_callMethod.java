@@ -1,6 +1,6 @@
 package method;
 import java.util.Scanner;
-public class ders_method_03 {
+public class ders_method_03_callMethod {
     public static void main(String[] args) {
 
         Scanner tara=new Scanner(System.in);
@@ -9,8 +9,10 @@ public class ders_method_03 {
         int sayi1=tara.nextInt();
         int sayi2=tara.nextInt();
 
+
         int sonuc= ders_method_02_faktoryel.faktoryelHesapla(sayi1)
                 + ders_method_02_faktoryel.faktoryelHesapla(sayi2);
         System.out.println(sonuc);
     }
+
 }

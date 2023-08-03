@@ -6,7 +6,6 @@ public class ders_method_07_isasal {
         System.out.println(isAsal(33));
         System.out.println(isAsal(31));
         System.out.println(isAsal(22));
-
     }
 
     public static boolean isAsal(int sayi){

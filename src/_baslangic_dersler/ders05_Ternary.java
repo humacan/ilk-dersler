@@ -14,7 +14,7 @@ public class ders05_Ternary {
 
 
         int sayi1 = 20;
-        sayi1= sayi1>0 ? sayi1 : sayi1*(-1); // if e alternatif olarak kullandik
+        sayi1= sayi1>0 ? 30 : sayi1*(-1); // if e alternatif olarak kullandik
         System.out.println(sayi1);
 
         char harf ='m';

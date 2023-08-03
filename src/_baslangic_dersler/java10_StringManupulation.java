@@ -8,6 +8,8 @@
                                 //  replace, replaceFirst, replaceAll - yer degistirme
                                 //  repeat - bir stringi tekrar sayisi kadar tekrar ettirir
                                 //  strim - bir stringin basinda ve sonunda bulunan boslugu siler
+                                // isEmpty - string bos mu degil mi (true/false)
+                                // isBlank -
 package _baslangic_dersler;
 public class java10_StringManupulation {
     public static void main(String[] args) {
@@ -30,6 +32,8 @@ public class java10_StringManupulation {
         System.out.println(str3.equals(str4));  // false -- buyuk kucuk duyarligindan dolayi
         System.out.println(str1.equalsIgnoreCase(str2)); // true -- buyuk kucuk duyarligini gormezden geldi
         System.out.println(str3.equalsIgnoreCase(str4)); // true -- buyuk kucuk duyarligini gormezden geldi
+        System.out.println(str1.isBlank()); //  false
+        System.out.println(str1.isEmpty()); // false
 
         String str5="Java";
         String str6="Ja";

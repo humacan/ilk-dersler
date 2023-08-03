@@ -7,7 +7,7 @@ public class ders07_class_level_variable {
     static char chr;            // ama herhangi bir islemde kullanilamazlar
     static int in1;
     boolean bl2;                // static method da kullanilamaz
-    int int2;
+    int int2;                   // static method da kullanilamaz
 
 
     public static void main(String[] args) {

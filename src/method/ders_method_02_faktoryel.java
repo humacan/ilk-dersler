@@ -3,7 +3,7 @@ public class ders_method_02_faktoryel {
     public static void main(String[] args) {
         ders_method_01_ana.ikiSayiTopla();     // backa bir class ta yer alan methodu bu class a cagirdik
 
-        int sonuc=faktoryelHesapla(6); // asahidaki static methodu main methoda cagirdik
+        int sonuc=faktoryelHesapla(5); // asahidaki static methodu main methoda cagirdik
         System.out.println(sonuc);
     }
     public static int faktoryelHesapla(int sayi){

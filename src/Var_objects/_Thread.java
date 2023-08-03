@@ -7,8 +7,10 @@ public class _Thread {       // GERI SAYAN BIR SAYAC
 
         for (int i = 1; i <=20; i++) {
             Thread.sleep(1000);
-            System.out.println(sayi+i);
+
+            System.out.print(sayi+i+" ");
         }
+        System.out.println("");
         System.out.println("---------------------BITTI---------------");
 
     }

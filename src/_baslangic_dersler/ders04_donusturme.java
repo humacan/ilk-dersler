@@ -1,19 +1,18 @@
 package _baslangic_dersler;                         //donusturme
-import java.util.Scanner;
-
+import java.util.Scanner;                           //Data Casting
 public class ders04_donusturme {
     public static void main(String[] args) {
 
         double db1 = 3987876765d;
-        int sayi = (int)db1;                    // birim donusturme
+        int sayi = (int)db1;                    //birim donusturme
         System.out.println("sayi : " + sayi);
 
         String sayi1 = "112";
-        short sayi2 = Short.parseShort(sayi1);  // String li ifadeyi sayiya cevirme
+        int sayi3=Integer.parseInt(sayi1);
+        short sayi2 = Short.parseShort(sayi1);  //String li ifadeyi sayiya cevirme
         System.out.println(sayi2);
 
         System.out.println(2+3<=5);
-
 
         System.out.println("-------NOT HESAPLAMA------");
         Scanner scn = new Scanner(System.in);

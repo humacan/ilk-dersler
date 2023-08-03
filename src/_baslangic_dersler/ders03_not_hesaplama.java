@@ -2,6 +2,8 @@ package _baslangic_dersler;
 import java.util.Scanner;
 public class ders03_not_hesaplama {
     public static void main(String[] args) {
+
+
         Scanner scn = new Scanner(System.in);
 
         int a = 12;
@@ -57,4 +59,5 @@ public class ders03_not_hesaplama {
             System.out.println("karakter kucuk harf");
         }
     }
+
 }

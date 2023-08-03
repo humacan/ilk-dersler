@@ -9,7 +9,7 @@ public class ders00_while {
 
         Scanner tara=new Scanner(System.in);
         System.out.println("Sifreyi giriniz");
-        while (tekrar!=4){              // sifre tekrari 4'e ulasana dek islemi tekrarla
+        while (tekrar<4){  //alternatif (tekrar!=4)  // sifre tekrari 4'e ulasana dek islemi tekrarla
             tahmin= tara.nextInt();
             if (sifre==tahmin){
                 System.out.println("Sifre basarili");

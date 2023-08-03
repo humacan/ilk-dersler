@@ -1,5 +1,4 @@
 package scope_arrays;
-
 public class ders02_hastane {
     public static void main(String[] args) {
         ders01_Adoktor dok1=new ders01_Adoktor();  // tipki Scanner girdisi gibi yaptik
