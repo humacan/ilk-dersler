@@ -10,8 +10,12 @@ public class Alistirma_sorulari2 {
         //arrayminmak();
         //System.out.println(arraysayitoplam());
         //arraybirlestir();
-        int[] list={1,2,3,2,1,6,3,4,5,2};
-        System.out.println(Arrays.toString(eliminateDuplicates(list)));
+
+    String ogrenciadi="ahmet";
+    int ogrencino=0;
+
+
+
 
     }
     public static void basamakToplami(){
@@ -792,7 +796,7 @@ public class Alistirma_sorulari2 {
      }
         int[] list2=new int[liste.size()]; // List array list  int arraye atandi
         for (int j = 0; j < liste.size() ; j++) {
-            list2[j ]=liste.get(j);
+            list2[j]=liste.get(j);
         }
         return list2;
     }
@@ -856,7 +860,7 @@ public class Alistirma_sorulari2 {
         System.out.println(Arrays.toString(output));
 
     }
-    public static void varargs(){
+    public static void  sum(int...varargs){
     //Soru 41-)
         //  Parametre olarak birden fazla tamsayı (integer) kabul eden ve bu integer
         //  sayıların toplamını yazdıran bir dönüş methodu (void) yazın
@@ -865,34 +869,23 @@ public class Alistirma_sorulari2 {
         //  toplam(1,2,3) çıktı =6
         //	toplam(1,2,3,4,5) çıktı =15
         //	sum(1,2) output=3
-        //Ipucu:  varargs sorusu, varargs olusturalım
-    }
-    public static void tcolustur(){
-    //TC kimlik numarasının son rakamı çift olmak zorundadır. 0 rakamı ile başlayamaz.
-    //ilk 10 rakamın toplamının birler basamağı, 11. rakamı vermektedir.
-    //Ayrıca; 1, 3, 5, 7 ve 9. rakamın toplamının 7 katı ile 2, 4, 6 ve 8. rakamın toplamının 9 katının toplamının
-    // birler basamağı 10. rakamı;
-    //1, 3, 5, 7 ve 9. rakamın toplamının 8 katının birler basamağı 11. rakamı vermektedir.
-    Scanner in=new Scanner(System.in);
-
-        int[] no= new int[]{in.nextInt()};
-    boolean flag=true;
-    while (flag){
-
-        if (no[11]/2==0){
-
-            flag=false;
-        }
-    }
-
-
-
-
-
+        //  Ipucu:  varargs sorusu, varargs olusturalım
 
 
 
     }
+    public static void  changename(String ogrenciadi,int ogrencino){
+    //Soru 43-)
+    //Main methodda ögrenci bilgileri oluşturun ve bu verileri kullanın.
+    //Changename adında bir method oluşturun, parametre olarak öğrenci bilgileri alın ve methodda
+    // tüm bilgileri değiştirin ve yeni bilgileri ekleyip yazdırın.
+    //Main Methoddaki Rename methodunu çağırdığımız satırda öğrenci bilgilerini tekrardan yazdırın
+    //Changesurname adlı bir method oluşturun , bu method lastname'i parametre olarak alsın.
+    // Methodda kullanıcıya yeni bir lastname sorulsun ve eski lastname degiştirilsin.
+
+
+    }
+
 }
 
 
