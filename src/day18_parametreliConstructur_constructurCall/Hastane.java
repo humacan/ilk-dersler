@@ -1,7 +1,5 @@
 package day18_parametreliConstructur_constructurCall;
-
 public class Hastane {
-
     public  Hastane(String isim){System.out.println("isim paramatereli constructor");}
 
     public Hastane(){

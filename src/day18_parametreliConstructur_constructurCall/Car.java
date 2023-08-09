@@ -1,5 +1,4 @@
 package day18_parametreliConstructur_constructurCall;
-
 public class Car {
     String marka="Marka belirtilmedi";
     String model="Model Belirtilmedi";
@@ -20,7 +19,6 @@ public class Car {
     public Car(){
 
     }
-
     public Car(String marka, String model, int yil, int fiyat) {
         this.marka = marka;
         this.model = model;

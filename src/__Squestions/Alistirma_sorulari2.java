@@ -10,12 +10,9 @@ public class Alistirma_sorulari2 {
         //arrayminmak();
         //System.out.println(arraysayitoplam());
         //arraybirlestir();
-
+        sum(2,4,5,6);
     String ogrenciadi="ahmet";
     int ogrencino=0;
-
-
-
 
     }
     public static void basamakToplami(){
@@ -856,11 +853,9 @@ public class Alistirma_sorulari2 {
     int[] output= Arrays.copyOf(in1,in1.length+in2.length);
     System.arraycopy(in2,0,output,in1.length,in2.length);
 
-
         System.out.println(Arrays.toString(output));
-
     }
-    public static void  sum(int...varargs){
+    public static void  sum(int...sayilar){
     //Soru 41-)
         //  Parametre olarak birden fazla tamsayı (integer) kabul eden ve bu integer
         //  sayıların toplamını yazdıran bir dönüş methodu (void) yazın
@@ -870,22 +865,32 @@ public class Alistirma_sorulari2 {
         //	toplam(1,2,3,4,5) çıktı =15
         //	sum(1,2) output=3
         //  Ipucu:  varargs sorusu, varargs olusturalım
-
-
-
+        int toplam=0;
+        for (int sayi : sayilar) {  //for each
+            toplam+=sayi;
+        }
+        System.out.println(toplam);
     }
     public static void  changename(String ogrenciadi,int ogrencino){
-    //Soru 43-)
-    //Main methodda ögrenci bilgileri oluşturun ve bu verileri kullanın.
+    //Main methodda ögrenci bilgileri oluşturun ve bu verileri kullanın.     //Soru 43-)
     //Changename adında bir method oluşturun, parametre olarak öğrenci bilgileri alın ve methodda
     // tüm bilgileri değiştirin ve yeni bilgileri ekleyip yazdırın.
     //Main Methoddaki Rename methodunu çağırdığımız satırda öğrenci bilgilerini tekrardan yazdırın
     //Changesurname adlı bir method oluşturun , bu method lastname'i parametre olarak alsın.
     // Methodda kullanıcıya yeni bir lastname sorulsun ve eski lastname degiştirilsin.
 
-
     }
-
+    //Soru 44-)
+    //StudentMaın adında bir class olusturun, ögrenci bilgilerini alın. (ad soyad yas cınsiyet okul) Ardından Student adlı bir
+    // class olusturun ve içine parametreli constructor koyun, bu parametreler Maın classdaki bılgılerı ıstesın.
+    //Bu parametreli constructor icinde kullanıcıya ögrenci bilgilerini doldurtun. Ardından consolda giriilen bilgileri yazdırın
+    //Ipucu:
+    //Bu soruda iki classa ihtiyacımız olacak.
+    //Birinci main classda ögrenci bilgilerini tanımlayacagımız variablerı olusturacagız. String isim, int yas, char cinsiyet gibi...
+    //Ardından baska bir class olusturacagız ve bu classa parametrelı bir constructor koyacagız, bu parametrelı constructor
+    // az önce olusturdugumuz classdaki parametreleri kabul edecek sekılde olmalı.
+    //Ardından Main classda, parametreli constructoru olan classtan bir obje olusturacagız ve tabi ki constructor
+    // parametrelı oldugu ıcın bızden parametre yazmamızı ısteycek, bızde yukarıda olusturdugumuz variable adlarını ekleyecegız.
 }
 
 
