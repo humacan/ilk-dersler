@@ -16,7 +16,7 @@ public class arrayelemanekle {
         int[] ar= new int[uzunluk];
         for (int i = 0; i <ar.length ; i++) {
             System.out.println("array icin "+i+". index elemani giriniz");
-             ar[i]=in.nextInt();
+             ar[i]=in.nextInt();// array in her index i icin degeri kendimiz giriyoruz
         }
          return ar;
     }

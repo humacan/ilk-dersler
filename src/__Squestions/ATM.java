@@ -87,7 +87,6 @@ Sifre değiştirme işleminde mevcut şifreyi teyit ettikten sonra, sifre deği�
                     System.out.println("Iban numaranizi giriniz");
                     String iban=input.nextLine();
 
-
                         if(iban.startsWith("TR") && iban.length()==ibanktrol.length()) {
 
 
@@ -104,9 +103,7 @@ Sifre değiştirme işleminde mevcut şifreyi teyit ettikten sonra, sifre deği�
 
                         }else {
                             System.out.println("Iban yanlis girildi tekar giriniz");
-
                         }
-
                     break;
                 case 5:
                     sifredegistir();

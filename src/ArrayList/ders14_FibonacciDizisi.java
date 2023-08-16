@@ -5,7 +5,7 @@ public class ders14_FibonacciDizisi {
     public static void main(String[] args) {
             // verilen  pozitif br n tamsyai alarak
             // bize ilk n tane tane fibonacci sayisini bir list olarak donduren bir method
-        System.out.println(istenenSayidaFibonacciListele(10));
+        System.out.println(istenenSayidaFibonacciListele(2));
         // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
         System.out.println(istenenSayidaFibonacciListele(15));
         // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
