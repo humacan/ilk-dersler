@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
+
 public class foreach {
     public static void main(String[] args) {
      mukerrerkaldir();
@@ -73,18 +75,18 @@ public class foreach {
             }
     }
     public static List<Integer> arraykarsilastir(){
-        //Soru 5- Verilen iki array’in elementlerini karsilastirip, ikisinde ortak olan elementleri
-        //ayri bir liste olarak veren bir program yazin
-        List<Integer> liste=new ArrayList<>();
+    //Soru 5- Verilen iki array’in elementlerini karsilastirip, ikisinde ortak olan elementleri
+    //ayri bir liste olarak veren bir program yazin
         int[] ar= {1,2,4,5,6,7,8};
         int[] ar2={2,3,5,6,8,1,4,12,23};
+        List<Integer> liste= new ArrayList<>();
+        //liste=Arrays.stream(ar).boxed().collect(Collectors.toList());// int array -> list e aktardik
+        //alternatif kullanim uzun yontem
         Collections.addAll(liste, 1,2,4,5,6,7,8);
-
-        for ( int a : ar2) {
-             if (!liste.contains(a)){
-                 liste.add(a);
-             }
-        }
+        for (int a: ar2) {
+            if (!liste.contains(a)){
+                liste.add(a);}
+    }
         return liste;
     }
 }
